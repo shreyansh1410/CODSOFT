@@ -4,48 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="stylesheet" href="utils.css" type="text/css">
+    <link rel="stylesheet" href="light-style.css" id="theme">
     <title>Calculator</title>
 </head>
 <body>
-    <div id="heading">
-        <h1>
-            Calculator by shreyansh1410 <a href="https://www.github.com/shreyansh1410">shreyansh1410</a>
-        </h1>
-    </div>
-    <div class="container">
-        <div class="row">
-            <input class="input" type="text" value="0">
+    <div class="mainContainer">
+        <div id="heading">
+            <h1 id="toast">
+                Calculator by <a href="https://www.github.com/shreyansh1410">shreyansh1410</a>
+            </h1>
         </div>
-        <div class="row">
-            <button class="button specialOne">AC</button>
-            <button class="button specialOne">del</button>
-            <button class="button specialOne">%</button>
-            <button class="button specialTwo">/</button>
+        
+        <div id="modeButton">
+            <button class="mode-toggle" onclick = "changeTheme()">Dark Mode 🌙</button>
         </div>
-        <div class="row">
-            <button class="button">9</button>
-            <button class="button">8</button>
-            <button class="button">7</button>
-            <button class="button specialTwo">x</button>
-        </div>
-        <div class="row">
-            <button class="button">6</button>
-            <button class="button">5</button>
-            <button class="button">4</button>
-            <button class="button specialTwo">+</button>
-        </div>
-        <div class="row">
-            <button class="button">3</button>
-            <button class="button">2</button>
-            <button class="button">1</button>
-            <button class="button specialTwo">-</button>
-        </div>
-        <div class="row">
-            <button class="button">0</button>
-            <button class="button">.</button>
-            <button class="button specialTwo equals">=</button>
+        <div class="container">
+            <div class="row">
+                <input class="input" type="text" value="0">
+            </div>
+            <div class="row">
+                <button class="button specialOne">AC</button>
+                <button class="button specialOne">del</button>
+                <button class="button specialOne">%</button>
+                <button class="button specialTwo">/</button>
+            </div>
+            <div class="row">
+                <button class="button">9</button>
+                <button class="button">8</button>
+                <button class="button">7</button>
+                <button class="button specialTwo">x</button>
+            </div>
+            <div class="row">
+                <button class="button">6</button>
+                <button class="button">5</button>
+                <button class="button">4</button>
+                <button class="button specialTwo">+</button>
+            </div>
+            <div class="row">
+                <button class="button">3</button>
+                <button class="button">2</button>
+                <button class="button">1</button>
+                <button class="button specialTwo">-</button>
+            </div>
+            <div class="row">
+                <button class="button">0</button>
+                <button class="button">.</button>
+                <button class="button specialTwo equals">=</button>
+            </div>
         </div>
     </div>
     <script src="index.js"></script>

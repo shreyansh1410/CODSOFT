@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap');
+#heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+body{
+    background-color: white;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+h1{
+    color: rgb(0, 51, 255);
+}
+a{
+    color: rgb(0, 51, 255);
+}
+
+.mainContainer{
+    background-color: white;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 400px;
+   border-radius: 10px;
+   padding-top: 10px;
+}
+
+.button{
+    width: 70px;
+    height: 70px;
+    border: 3px solid white;
+    border-radius: 50%;
+    background-color:rgb(95, 93, 93);
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    margin: 8px 8px;
+    padding: 0px;
+    color: white;
+}
+
+.input{
+    margin: 3px;
+    height: 150px;
+    max-width: 340px;
+    font-size: 70px;
+    border-radius: 9px;
+    background-color: white;
+    border: white;
+    color: black;
+    text-align: right;
+}
+
+.button.specialOne{
+    background-color: black;
+    color: darkgray;
+}
+
+.button.specialTwo{
+    border-radius: 150px;
+    font-weight: bolder;
+    background-color: orange;
+    color: black;
+}
+
+.button.specialTwo.equals{
+    width: 165px;
+    border-radius: 150px;
+}
+
+#modeButton{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.mode-toggle{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    margin: 0px;
+    padding:6px;
+}
+
+button{
+    cursor: pointer;
+}
