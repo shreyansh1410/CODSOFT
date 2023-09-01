@@ -9,3 +9,4 @@ document.addEventListener("DOMContentLoaded", function () {
     fadingImage.style.opacity = "1";
 });
 
+

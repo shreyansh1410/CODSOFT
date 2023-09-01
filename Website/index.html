@@ -12,6 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="glow.css">
     <script src="scrpit.js" defer></script>
   </head>
   <body>
@@ -21,9 +22,9 @@
         <div class="right">
           <ul>
             <li><a href="#firstSection">About</a></li>
-            <li><a href="/">Servies</a></li>
-            <li><a href="/">Projects</a></li>
-            <li><a href="/">Contact Me</a></li>
+            <li><a href="./assets/Shreyansh_s_Resume.pdf">Resume</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
           </ul>
         </div>
       </nav>
@@ -41,7 +42,7 @@
       <hr id="hr-intro">
       <section id="secondSection" class="secondSection">
         <span class="text-gray"> What I have done so far </span>
-        <h1>Past Experience</h1>
+        <h1>Work Experience</h1>
         <div class="box">
           <div class="vertical">
             <img class="image-top" src="./assets/spotify.png" alt="developer" />
@@ -87,8 +88,32 @@
           </div>
         </div>
       </section>
-
       <hr id="about-hr">
+
+      <section id="projects">
+        <div class="projectTitle">
+          <h1>Projects</h1>
+        </div>
+        <div class="firstProject projectList">
+          <div class="projectImageClass">
+            <img class="firstProjectImage projectImage" src="./assets/calculatorProject.png" alt="">
+          </div>
+          <div class="projectText">
+            <p>Built a responsive calculator that works in light and dark modes<br>
+              and input can be given using both a mouse or a keyboard </p>
+          </div>
+        </div>
+        <div class="secondProject projectList">
+          <div class="projectImageClass">
+            <img src="./assets/portfolioProject.png" alt="" class="secondProjectImage projectImage">
+          </div>
+          <div class="secondProjectText projectText">
+            <p>Built a responsive portfolio website that contains information about <br>
+            Work Experience, Projects, Resume and contact information</p>
+          </div>
+        </div>
+      </section>
+      <hr id="projects-hr">
 
       <section id="contact">
         <div class="contact">
@@ -99,14 +124,21 @@
             <a href="https://www.github.com/shreyansh1410"><img class="contact-image" src="./assets/github.png" alt=""></a>
           </div>
           <div class="linkedin">LinkedIn
-            <img class="contact-image" src="./assets/linkedin.png" alt="">
+            <a href="https://www.linkedin.com/in/shreyansh1410"><img class="contact-image" src="./assets/linkedin.png" alt=""></a>
           </div>
           <div class="twitter">Twitter
-            <img class="contact-image" src="./assets/twitter.png" alt="">
+            <a href="https://www.twitter.com/shreyansh1410"><img class="contact-image" src="./assets/twitter.png" alt=""></a>
+          </div>
+          <div class="email">Email
+            <a href = "mailto: shreyansh.14010@gmail.com"><img class="contact-image" src="./assets/email.png" alt=""></a>
           </div>
         </div>
       </section>
     </main>
+
+    <div class="footer">
+      <p>&copy; Shreyansh Shukla 2023</p>
+    </div>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   </body>
 </html>
